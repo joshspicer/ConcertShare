@@ -12,16 +12,28 @@ namespace ConcertShare
             this.concertMockData = concertMockData;
         }
 
-        public override int ItemCount => throw new System.NotImplementedException();
+        public override int ItemCount => concertMockData.Count;
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
-            throw new System.NotImplementedException();
+            ConcertViewHolder vh = holder as ConcertViewHolder;
+
+            // Load the resource's photo image
+            //vh.Image.SetImageResource(mPhotoAlbum[position].PhotoID);
+
+            // Load the photo caption from the photo album:
+            vh.Name.Text = concertMockData[position].name;
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-            throw new System.NotImplementedException();
+            // Inflate view.
+            View itemView = LayoutInflater.From(parent.Context).
+                        Inflate(Resource.Layout.atomic_concert_item, parent, false);
+
+            // Create a ViewHolder to hold view references inside the CardView:
+            ConcertViewHolder vh = new ConcertViewHolder(itemView);
+            return vh;
         }
     }
 }

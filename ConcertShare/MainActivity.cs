@@ -43,8 +43,6 @@ namespace ConcertShare
             // Set the layout to be a linear layout
             mainList.SetLayoutManager(new LinearLayoutManager(this));
 
-
-
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)

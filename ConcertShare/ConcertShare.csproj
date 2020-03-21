@@ -65,6 +65,7 @@
     <Compile Include="ConcertMockData.cs" />
     <Compile Include="ConcertAdapter.cs" />
     <Compile Include="Concert.cs" />
+    <Compile Include="ConcertViewHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -101,7 +102,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
-    <AndroidResource Include="Resources\layout\atomicItem.axml">
+    <AndroidResource Include="Resources\layout\atomic_concert_item.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

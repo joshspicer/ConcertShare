@@ -8,14 +8,14 @@
 	app:layout_behavior="@string/appbar_scrolling_view_behavior"
 	tools:showIn="@layout/activity_main">
 	<ScrollView
-		android:minWidth="25px"
+		android:minWidth="200px"
 		android:minHeight="3000px"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
+		android:layout_height="match_parent"
 		android:id="@+id/scrollView1">
 		<LinearLayout
 			android:orientation="vertical"
-			android:minWidth="25px"
+			android:minWidth="300px"
 			android:minHeight="1000px"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -33,17 +33,16 @@
 
 			<android.support.v7.widget.RecyclerView
 				android:paddingTop="20dp"
-				android:minWidth="25px"
+				android:minWidth="300px"
 				android:minHeight="300px"
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
 				android:id="@+id/mainlist"
 				android:layout_marginLeft="10dp"
-				android:layout_marginRight="10dp"
-              
+				android:layout_marginRight="10dp"              
                 />
 
-            
+
 
 
 		</LinearLayout>
