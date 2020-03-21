@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<TextView
+		android:text="Hello!"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:padding="10dp"
+		android:id="@+id/atomicItem"
+		android:background="#ffffb300"/>
