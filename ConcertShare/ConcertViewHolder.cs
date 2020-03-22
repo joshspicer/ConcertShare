@@ -14,6 +14,6 @@ public class ConcertViewHolder : RecyclerView.ViewHolder
         // Locate and cache view references:
         Image = itemView.FindViewById<ImageView>(Resource.Id.concertItemImage);
 
-        Name = itemView.FindViewById<TextView>(Resource.Id.concertItem);
+        Name = itemView.FindViewById<TextView>(Resource.Id.concertItemHeading);
     }
 }
