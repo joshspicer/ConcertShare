@@ -21,8 +21,10 @@ namespace ConcertShare
             // Load the resource's photo image
             vh.Image.SetImageResource(concertMockData[position].photoID);
 
-            // Load the photo caption from the photo album:
+            // Load the text
             vh.Name.Text = concertMockData[position].name;
+            vh.Description.Text = concertMockData[position].description;
+
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
