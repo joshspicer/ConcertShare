@@ -1,12 +1,19 @@
 ﻿using System.Collections.Generic;
+using Android.Content.Res;
 
 namespace ConcertShare
 {
     internal class ConcertMockData
     {
         static Concert[] hardcodedConcerts = {
-            new Concert("Bad Suns", "Bads Suns are playing Tuesday at the Sinclair!"),
-            new Concert("Jon Bellion", "Ft. Lawrence at House of Blues!")
+           new Concert("Bad Suns", "Bads Suns are playing Tuesday at the Sinclair!"),
+           new Concert("Jon Bellion", "Album release show at House of Blues!"),
+           new Concert("Lawrence", "\"The Weather\" just released"),
+           new Concert("Smallpools", "Show at Brighton Music Hall",Resource.Drawable.lawrence),
+           new Concert("Jon Bellion", "Album release show at House of Blues!"),
+           new Concert("Jon Bellion", "Album release show at House of Blues!"),
+           new Concert("Jon Bellion", "Album release show at House of Blues!")
+
             // ...
         };
 

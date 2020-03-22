@@ -19,7 +19,7 @@ namespace ConcertShare
             ConcertViewHolder vh = holder as ConcertViewHolder;
 
             // Load the resource's photo image
-            //vh.Image.SetImageResource(mPhotoAlbum[position].PhotoID);
+            vh.Image.SetImageResource(concertMockData[position].photoID);
 
             // Load the photo caption from the photo album:
             vh.Name.Text = concertMockData[position].name;
